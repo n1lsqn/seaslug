@@ -1,6 +1,11 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import { Darumadrop_One, Hachi_Maru_Pop, Monomaniac_One, Slackside_One, Yomogi, Yusei_Magic, Zen_Maru_Gothic } from 'next/font/google'
+
+const font = Zen_Maru_Gothic({
+  weight: "400"
+})
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -26,7 +31,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${font.className} antialiased`}
       >
         {children}
       </body>
