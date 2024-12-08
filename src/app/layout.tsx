@@ -34,6 +34,7 @@ export default function RootLayout({
         className={`${font.className} antialiased`}
       >
         {children}
+        <SpeedInsights />
       </body>
     </html>
   );

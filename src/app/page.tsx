@@ -1,6 +1,5 @@
 import { LeftSide } from "@/features/leftSide";
 import { RightSide } from "@/features/rightSide";
-import { NextPage } from "next";
 
 const Home = () => {
   return (
