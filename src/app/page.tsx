@@ -2,7 +2,7 @@ import { LeftSide } from "@/features/leftSide";
 import { RightSide } from "@/features/rightSide";
 import { NextPage } from "next";
 
-export const Home: NextPage = () => {
+const Home = () => {
   return (
     <div className="bg-[url('/assets/bg_blur.png')] flex flex-col justify-center items-center min-h-screen p-4">
       <div className="w-full max-w-4xl flex flex-col md:flex-row shadow-2xl">
