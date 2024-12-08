@@ -29,19 +29,19 @@ export const LeftSide: NextPage = () => {
           className='rounded-full border-4 shadow-md'
         />
       </div>
-      <div className='md:text-3xl text-2xl text-center my-2'>にる</div>
+      <div className='md:text-3xl text-2xl text-center my-2 text-[#212121]'>にる</div>
       <div className='flex flex-row gap-4 justify-center mt-8 md:mt-48 mb-8 md:mb-16 px-4'>
         <a href="https://vrchat.com/home/user/usr_22e0ade6-5183-42a8-b9fa-0c31ad47887e" target="_blank" rel="noopener noreferrer" className='rounded-full border p-1.5 hover:border-[#111734] hover:bg-gray-100 transition-colors'>
-          <SiVrchat className='w-10 h-10 md:w-12 md:h-12'/>
+          <SiVrchat className='w-10 h-10 md:w-12 md:h-12 text-[#212121]'/>
         </a>
         <a href="https://twitter.com/n1lsqn" target="_blank" rel="noopener noreferrer" className='rounded-full border p-1.5 hover:border-[#111734] hover:bg-gray-100 transition-colors'>
-          <CiTwitter className='w-10 h-10 md:w-12 md:h-12'/>
+          <CiTwitter className='w-10 h-10 md:w-12 md:h-12 text-[#212121]'/>
         </a>
         <a href="https://booth.pm/wish_list_names/d5ETkxYb" target="_blank" rel="noopener noreferrer" className='rounded-full border p-1.5 hover:border-[#111734] hover:bg-gray-100 transition-colors'>
-          <CiShoppingCart className='w-10 h-10 md:w-12 md:h-12'/>
+          <CiShoppingCart className='w-10 h-10 md:w-12 md:h-12 text-[#212121]'/>
         </a>
         <a href="https://www.amazon.jp/hz/wishlist/ls/3W3LV6BQ477KP?ref_=wl_share" target="_blank" rel="noopener noreferrer" className='rounded-full border p-1.5 hover:border-[#111734] hover:bg-gray-100 transition-colors'>
-          <FaAmazon className='w-10 h-10 md:w-12 md:h-12'/>
+          <FaAmazon className='w-10 h-10 md:w-12 md:h-12 text-[#212121]'/>
         </a>
       </div>
     </div>
