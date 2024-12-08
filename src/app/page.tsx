@@ -3,15 +3,14 @@ import { RightSide } from "@/features/rightSide";
 
 const Home = () => {
   return (
-    <div className="bg-[url('/assets/bg_blur.png')] flex flex-col justify-center items-center h-screen">
-      <div className="w-1/2 flex shadow-2xl">
+    <div className="bg-[url('/assets/bg_blur.png')] flex flex-col justify-center items-center min-h-screen p-4 shadow-2xl">
+      <div className="w-full max-w-4xl flex flex-col md:flex-row shadow-2xl">
         <LeftSide />
-        <div className="border"></div>
+        <div className="border-t md:border-t-0 md:border-l"></div>
         <RightSide />
       </div>
     </div>
   )
 }
-
 
 export default Home;
