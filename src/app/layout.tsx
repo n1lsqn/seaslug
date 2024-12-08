@@ -4,7 +4,8 @@ import "./globals.css";
 import { Darumadrop_One, Hachi_Maru_Pop, Monomaniac_One, Slackside_One, Yomogi, Yusei_Magic, Zen_Maru_Gothic } from 'next/font/google'
 
 const font = Zen_Maru_Gothic({
-  weight: "400"
+  weight: "400",
+  subsets: ['latin']
 })
 
 const geistSans = localFont({
