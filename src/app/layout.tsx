@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import { Darumadrop_One, Hachi_Maru_Pop, Monomaniac_One, Slackside_One, Yomogi, Yusei_Magic, Zen_Maru_Gothic } from 'next/font/google'
+import { Zen_Maru_Gothic } from 'next/font/google'
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/next";
 
 const font = Zen_Maru_Gothic({
   weight: "400",
@@ -30,14 +31,13 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return (
-    <html lang="en">
-      <body
-        className={`${font.className} antialiased`}
-      >
-        {children}
-        <SpeedInsights />
-      </body>
-    </html>
-  );
+	return (
+		<html lang='en'>
+			<body className={`${font.className} antialiased`}>
+				{children}
+				<SpeedInsights />
+				<Analytics />
+			</body>
+		</html>
+	);
 }
