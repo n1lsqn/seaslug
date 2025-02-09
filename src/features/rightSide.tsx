@@ -20,18 +20,6 @@ export const RightSide: NextPage = () => {
       </p>
       <p className='mb-2 text-lg md:text-base text-[#212121]'>むんきちゃんはいいぞ🍩</p>
       <p className='mb-2 text-lg md:text-base text-[#212121]'>好きなもの: アジカン / King Gnu / ボカロ / Fallout Series / Death Stranding / 攻殻機動隊 ...etc</p>
-      <p className='mt-4 text-base md:text-sm text-[#212121]'>
-        この程度のサイトでよければ
-        <a 
-          href='https://skima.jp/item/detail?item_id=306163&sh=kImyLfx' 
-          className='text-[#01689A] hover:underline'
-          target='_blank' 
-          rel='noopener noreferrer'
-        >
-          SKIMA
-        </a>
-        で受け付けているのでぜひ...
-      </p>
     </div>
   );
 };
