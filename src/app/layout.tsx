@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
 import "./globals.css";
 import { Zen_Maru_Gothic } from 'next/font/google'
 import { SpeedInsights } from "@vercel/speed-insights/next";
