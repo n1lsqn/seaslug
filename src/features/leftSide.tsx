@@ -1,7 +1,6 @@
 import { NextPage } from 'next';
 import Image from 'next/image';
-import { CiShoppingCart, CiTwitter } from 'react-icons/ci';
-import { FaAmazon } from 'react-icons/fa';
+import { CiTwitter } from 'react-icons/ci';
 import { SiMisskey, SiVrchat } from 'react-icons/si';
 
 export const LeftSide: NextPage = () => {
