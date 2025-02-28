@@ -2,7 +2,7 @@ import { NextPage } from 'next';
 import Image from 'next/image';
 import { CiShoppingCart, CiTwitter } from 'react-icons/ci';
 import { FaAmazon } from 'react-icons/fa';
-import { SiVrchat } from 'react-icons/si';
+import { SiMisskey, SiVrchat } from 'react-icons/si';
 
 export const LeftSide: NextPage = () => {
   return (
@@ -37,11 +37,8 @@ export const LeftSide: NextPage = () => {
         <a href="https://twitter.com/n1lsqn" target="_blank" rel="noopener noreferrer" className='rounded-full border p-1.5 hover:border-[#111734] hover:bg-gray-100 transition-colors'>
           <CiTwitter className='w-10 h-10 md:w-12 md:h-12 text-[#212121]'/>
         </a>
-        <a href="https://booth.pm/wish_list_names/d5ETkxYb" target="_blank" rel="noopener noreferrer" className='rounded-full border p-1.5 hover:border-[#111734] hover:bg-gray-100 transition-colors'>
-          <CiShoppingCart className='w-10 h-10 md:w-12 md:h-12 text-[#212121]'/>
-        </a>
-        <a href="https://www.amazon.jp/hz/wishlist/ls/3W3LV6BQ477KP?ref_=wl_share" target="_blank" rel="noopener noreferrer" className='rounded-full border p-1.5 hover:border-[#111734] hover:bg-gray-100 transition-colors'>
-          <FaAmazon className='w-10 h-10 md:w-12 md:h-12 text-[#212121]'/>
+        <a href="https://papi.n1l.dev/@n1lsqn" target="_blank" rel="noopener noreferrer" className='rounded-full border p-1.5 hover:border-[#111734] hover:bg-gray-100 transition-colors'>
+          <SiMisskey className='w-10 h-10 md:w-12 md:h-12 text-[#212121]'/>
         </a>
       </div>
     </div>
